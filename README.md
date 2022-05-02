@@ -10,7 +10,7 @@ Ratings range from 1-5 and employees can leave sub-ratings in six categories. Th
 
 # Repo Structure
 
-Using the repository, the user should be able to run code that will scrape reviews from [glassdoor.com](https://www.glassdoor.com/member/home/index.htm). 
+Using the repository, the user should be able to run code that will scrape reviews from [glassdoor.com](https://www.glassdoor.com/member/home/index.htm). Unfortunately, Glassdoor only allows users to scrape data if they have 1) created and account and 2) left a review. Without the completion of these steps, you will not be able to scrape any data.
 
 1.  To collect the data, the user must run the Glassdoor scrape using [glassdoor_scrape.ipynb](https://github.com/mattflaherty97/glassdoor-reviews/blob/main/glassdoor_scrape.ipynb)
 2.  Following the scrape, the user must clean the data with [clean_scrape_data.ipynb](https://github.com/mattflaherty97/glassdoor-reviews/blob/main/clean_scrape_data.ipynb)
