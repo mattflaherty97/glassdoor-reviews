@@ -16,3 +16,17 @@ Using the repository, the user should be able to run code that will scrape revie
 2.  Following the scrape, the user must clean the data with [clean_scrape_data.ipynb](https://github.com/mattflaherty97/glassdoor-reviews/blob/main/clean_scrape_data.ipynb)
 3.  After the data is clean, sentiment scores can be calculated using a couple approaches in the [glassdoor_sentiment_analysis.ipynb](https://github.com/mattflaherty97/glassdoor-reviews/blob/main/glassdoor_sentiment_analysis.ipynb) file
 4.  With clean data and sentiment scores, the [analysis.ipynb](https://github.com/mattflaherty97/glassdoor-reviews/blob/main/analysis.ipynb) file can be used to gather the results
+
+# Necessary packages
+
+* [selenium](https://selenium-python.readthedocs.io/)
+* [pandas](https://pandas.pydata.org/)
+* [numpy](https://numpy.org/)
+* [time](https://docs.python.org/3/library/time.html)
+* [warnings](https://docs.python.org/3/library/warnings.html)
+* [statistics](https://docs.python.org/3/library/statistics.html)
+* [nltk](https://www.nltk.org/)
+* [re](https://docs.python.org/3/library/re.html)
+* [seaborn](https://seaborn.pydata.org/)
+* [matplotlib](https://matplotlib.org/)
+* [sklearn](https://scikit-learn.org/stable/)
